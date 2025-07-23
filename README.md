@@ -1,4 +1,9 @@
-uv venv --version 3.10.0
-.venv/Scripts/activate
+git clone
 
-uv pip install req.txt
+python -m venv venv
+
+venv/Scripts/activate
+
+pip install requirements.txt
+
+python app.py
